@@ -159,7 +159,7 @@
             
             <div class="password-cell">
                 <div style="color: white; font-size: 18px; font-weight: bold;">
-                    🔐 Catstonishingly Catered Gatito Cat Surprise
+                    🔐 Furtastically Fabulous Perritoe Surprise
                 </div>
                 <input 
                     type="text" 
@@ -176,19 +176,19 @@
     </div>
 
     <div class="overlay" id="image-overlay" onclick="closeOverlay()">
-        <img src="CatNote.jpg" alt="Secret Note" onclick="event.stopPropagation()">
+        <img src="PerritoeNote.jpg" alt="Secret Note" onclick="event.stopPropagation()">
     </div>
 
     <script>
     function checkSecret() {
         const input = document.getElementById('secret-input').value.toLowerCase().trim();
-        const correctPassword = 'meowo';
+        const correctPassword = 'wooflo';
         
         if (input === correctPassword) {
             const overlay = document.getElementById('image-overlay');
             overlay.style.display = 'flex';
         } else {
-            alert("Not quite! Try again 💕\n\nHint: \n Tihi you know this one silly");
+            alert("Not quite! Try again 💕\n\nHint: \n Meowlo");
         }
     }
 
